@@ -23,7 +23,7 @@ void handler (int signum){
             cout << "User signal handled" << endl;
             break;
 
-    //default: cout << "Did not handle signal: " << signum << endl;
+    default: cout << "Did not handle signal: " << signum << endl;
   }
 
 
